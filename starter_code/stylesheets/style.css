@@ -8,3 +8,89 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #540B51;
+}
+
+/*background colors*/
+nav, header, .lastsection {
+    background-color: #540B51 ;
+}
+
+.para {
+    background-color: #F3EAE2;
+}
+
+.halfofheading{
+    color: #ECB12F;
+}
+
+/*footer styling*/
+footer ul{
+    list-style: none;
+}
+
+footer < li {
+   color: #454245; 
+}
+
+a {
+ color: #2E71A6;
+}
+
+/*Small screen*/
+@media screen and (max-width: 768px) {
+    /* nav menu*/
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+    nav ul {
+        display: none;
+    }
+    .nav-container button{
+        background: none;
+        border: none;
+    }
+    .logo {
+        width: 100px;
+    }
+
+    .googlebutn{
+        background-color: #4285F4 ;
+    }
+
+    .googleimg{
+        background-color: white;
+        height: 2em;
+    }
+
+    .googlebutn .gglesign{
+        flex-grow: 1;
+        padding-right: 1.2em;
+    }
+
+    /*header*/
+    header{
+        padding: 20px;
+    }
+    h1, 
+    p {
+        text-align: center;
+        color: white;
+    }
+   
+    /*image*
+
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+      
+  }
+  
