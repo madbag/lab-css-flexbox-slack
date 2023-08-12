@@ -9,61 +9,71 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-
+/*Small screen*/
 body {
     margin: 0;
-    padding: 0;
-    background-color: #540B51;
 }
 
-/*background colors*/
-nav, header, .lastsection {
-    background-color: #540B51 ;
-}
-
-.para {
-    background-color: #F3EAE2;
-}
-
-.halfofheading{
-    color: #ECB12F;
-}
-
-/*footer styling*/
-footer ul{
-    list-style: none;
-}
-
-footer < li {
-   color: #454245; 
-}
-
-a {
- color: #2E71A6;
-}
-
-/*Small screen*/
 @media screen and (max-width: 768px) {
-    /* nav menu*/
-    nav {
+    .nav-container {
         display: flex;
         justify-content: space-between;
-        align-items: center;
         padding: 20px;
+        background-color:#540B51;
+        margin: 0;
       }
+
     nav ul {
         display: none;
     }
-    .nav-container button{
-        background: none;
-        border: none;
-    }
+
     .logo {
-        width: 100px;
+        height: 40px;
+        padding-top: 10px;
+        padding-left: 20px;
     }
 
-    .googlebutn{
+    .icon {
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+
+    .iconImg {
+        height: 40px;
+    }
+
+    header{
+        padding: 20px;
+        background-color: #540B51;
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size: 5em;
+    }
+
+    .half {
+       color: #ECB12F; 
+    }
+
+    .statement {
+        font-size: 1.5em;
+        text-align: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .googlebuttonimg{
         background-color: #4285F4 ;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .googleimagebg{
+        background-color: white;
     }
 
     .googleimg{
@@ -71,22 +81,55 @@ a {
         height: 2em;
     }
 
-    .googlebutn .gglesign{
-        flex-grow: 1;
-        padding-right: 1.2em;
+    .googlesign{
+        color: #540B51;
+        text-transform: uppercase;
+        font-weight: bold;
     }
 
-    /*header*/
-    header{
-        padding: 20px;
+    .signbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+
     }
-    h1, 
-    p {
-        text-align: center;
-        color: white;
+
+    .image {
+        margin: 0;
+        width: 100%;
+        height: auto;
     }
+
+    .compLogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .compLogo > img {
+        height: 50px;
+        padding: 1em;
+        
+    }
+
+    .logoTitle {
+        color:#191817;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 1.2em;
+        padding-bottom: 1em;
+    }
+
+    .companies {
+        background-color: #F3EAE2;
+        padding: 3em;
+    }
+
+ 
+
    
-    /*image*
 
   }
   
